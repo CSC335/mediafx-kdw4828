@@ -28,7 +28,8 @@ public class PlayAnMP3 extends Application {
   @Override
   public void start(Stage stage) throws Exception {
     BorderPane pane = new BorderPane();
-    String path = "MediaFX/songfiles/SwingCheese.mp3";  // I changed path and song to run to push to GitHub
+    // I, John Ko, changed path and song to run to push to GitHub
+    String path = "MediaFX/songfiles/SwingCheese.mp3";
     playASong(path);
     // Changed two lines
     pane.setCenter( new Label(path));
